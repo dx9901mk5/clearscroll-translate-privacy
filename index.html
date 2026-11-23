@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — ClearScroll Translate (穿透譯 ClearScroll)</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --accent: #0f62fe;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.75;
+      padding: 24px 16px 48px;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px 28px;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+    }
+    h1 { margin: 0 0 6px; font-size: 26px; color: #0b2545; }
+    .meta { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+    h2 { margin-top: 28px; font-size: 19px; color: #0f62fe; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
+    code { background: #f1f5f9; padding: 2px 6px; border-radius: 6px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ClearScroll Translate（穿透譯 ClearScroll）隱私權政策</h1>
+    <div class="meta">生效日期：2026 年 11 月 23 日 ｜ 套件名稱：<code>com.clearscroll.translate</code></div>
+
+    <h2>1. 核心隱私承諾（零蒐集、純記憶體即時處理）</h2>
+    <ul>
+      <li><strong>螢幕擷取影格僅於記憶體處理</strong>：當您明確點擊啟動並授權 Android 標準螢幕擷取（<code>MediaProjection</code>）後，本應用程式僅於揮發性記憶體（RAM）中進行本機文字辨識（OCR）與色彩取樣，並在處理完畢後立即釋放回收。<strong>絕不錄影、絕不儲存截圖檔案、絕不上傳任何畫面影像。</strong></li>
+      <li><strong>不使用無障礙服務（AccessibilityService）</strong>：本應用程式完全不請求或使用無障礙權限，亦不具備任何自動點擊或遙控操作功能。</li>
+      <li><strong>尊重系統安全防護</strong>：遇到銀行、支付或串流影音等標記 <code>FLAG_SECURE</code> 之受保護畫面時，系統擷取將保持靜默，本應用程式絕不進行任何繞過行為。</li>
+    </ul>
+
+    <h2>2. 翻譯處理方式與第三方服務</h2>
+    <ul>
+      <li><strong>預設純本機離線翻譯（Google ML Kit）</strong>：預設情況下，文字辨識（ML Kit OCR）與神經網路翻譯（ML Kit On-Device Translation）皆 100% 於您的裝置本機執行，翻譯文字不會傳送至開發者或任何外部雲端伺服器。Google ML Kit SDK 可能依 Google Play 服務條款回傳最低限度之技術診斷與模組安裝遙測，但不包含您的螢幕影像或個人身份資訊。</li>
+      <li><strong>選配官方 BYOK 雲端引擎</strong>：僅當您主動切換至混合或雲端模式並自行填入個人官方 API 金鑰（Google Gemini API、DeepL API 或 Google Cloud Translation API）時，螢幕擷取出的純文字段落才會經 HTTPS 加密直接傳送至您指定的官方供應商端點。您的 API 金鑰採用 Android Keystore AES-256-GCM 加密儲存於裝置本機。</li>
+    </ul>
+
+    <h2>3. 試用與應用程式內購買（Google Play Billing）</h2>
+    <p>本應用程式提供安裝日起前 5 天全功能免費試用；試用結束後，您可透過 Google Play 官方結帳系統（<code>clearscroll_pro_lifetime</code>）一次買斷永久解鎖。所有交易與收據驗證均由 Google Play 處理，開發者不會蒐集或儲存您的信用卡或付款資訊。</p>
+
+    <h2>4. 聯絡方式</h2>
+    <p>若您對本隱私權政策有任何疑問，歡迎透過 Google Play 商店頁面所列之開發者支援信箱與我們聯繫。</p>
+
+    <hr />
+
+    <h1>Privacy Policy — ClearScroll Translate</h1>
+    <div class="meta">Effective Date: November 23, 2026 ｜ Package ID: <code>com.clearscroll.translate</code></div>
+
+    <h2>1. Core Privacy Commitment (RAM-Only, Zero Screen Storage)</h2>
+    <ul>
+      <li><strong>Volatile RAM-Only Frame Processing</strong>: After you explicitly tap Start and approve Android's standard Screen Capture (<code>MediaProjection</code>) prompt, captured frames are analyzed strictly in volatile RAM for on-device OCR and color sampling, then immediately recycled. <strong>No screenshots or screen recordings are ever saved, logged, or uploaded.</strong></li>
+      <li><strong>No AccessibilityService</strong>: ClearScroll Translate does not request or use Android AccessibilityService permissions.</li>
+      <li><strong>FLAG_SECURE Respected</strong>: Protected banking, payment, and DRM screens marked <code>FLAG_SECURE</code> remain protected and are never bypassed.</li>
+    </ul>
+
+    <h2>2. Translation Processing &amp; Third-Party Services</h2>
+    <ul>
+      <li><strong>On-Device Offline by Default (Google ML Kit)</strong>: By default, both text recognition and translation run 100% locally on your device via Google ML Kit. No extracted text leaves your device. Google ML Kit SDKs may transmit minimal technical diagnostics and model download telemetry in accordance with Google's terms, excluding screen content or personal identity data.</li>
+      <li><strong>Optional Official BYOK Cloud Engines</strong>: Only if you explicitly enable hybrid/cloud mode and enter your own official API key (Google Gemini API, DeepL API, or Google Cloud Translation API) will extracted text strings be transmitted directly over HTTPS to your chosen provider. Your API key is encrypted locally via Android Keystore (AES-256-GCM).</li>
+    </ul>
+
+    <h2>3. Free Trial &amp; In-App Purchases</h2>
+    <p>ClearScroll Translate offers a 5-day full-featured free trial upon installation, followed by an optional lifetime one-time unlock via Google Play Billing (<code>clearscroll_pro_lifetime</code>). All payments are processed exclusively by Google Play; we do not collect or store payment credentials.</p>
+  </div>
+</body>
+</html>
